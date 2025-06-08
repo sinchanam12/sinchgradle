@@ -12,15 +12,15 @@ git branch:'master',url:'https://github.com/sinchanam12/sinchgradle.git'
 }
 stage('Build'){
 steps{
-sh'Gradle build'}
+sh'gradle build'}
 }
 stage('Test'){
 steps{
-sh'Gradle test'}
+sh'gradle test'}
 }
 stage('Run Application'){
 steps{
-sh'Gradle run'}
+sh'gradle run'}
 }
 }
 post{
